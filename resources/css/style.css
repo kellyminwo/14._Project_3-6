@@ -1,0 +1,69 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #000;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+header {
+    min-height: 50vh;
+    gap: 30px;
+    margin: 30px;
+}
+
+header,
+.discovery-container,
+.download-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline-container {
+    max-width: 650px;
+}
+
+.headline-container h1 {
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    margin-bottom: 45px;
+}
+
+.headline-container .download-button,
+.download-container .download-button {
+    text-decoration: none;
+    background-color: #342db4;
+    color: #FFF;
+    padding: 20px 30px;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.headline-container .download-button:hover {
+    background-color: #645dd7;
+}
+
+.headline-container span {
+    margin-left: 15px;
+    font-style: italic;
+    font-size: 0.85rem;
+}
+
+.discovery-container {
+    background-image: 
+        linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+        url('../images/camp.webp');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    flex-direction: column;
+}
+
+.discovery-container h2 {
+    font-size: 2.5rem;
+}
+
+.download-container {
+    flex-direction: column;
+    height: 550px;
+}
